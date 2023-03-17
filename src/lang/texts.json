@@ -1,3 +1,12 @@
 {
-  "es": {}
+  "es": {
+    "links": [
+      { "label": "Inicio", "to": "/", "hash": "" },
+      { "label": "Lo que hago", "to": "#what-i-do", "hash": "#what-i-do" },
+      { "label": "About me", "to": "#about-me", "hash": "#about-me" },
+      { "label": "Habilidades", "to": "#skills", "hash": "#skills" },
+      { "label": "Proyectos", "to": "#projects", "hash": "#projects" },
+      { "label": "Contactar", "to": "#contact-me", "primary": true }
+    ]
+  }
 }

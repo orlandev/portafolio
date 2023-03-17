@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", san-serif;
+}
+
+h5,
+h6,
+a,
+p,
+span,
+button, 
+label {
+  font-family: "Roboto", san-serif;
+}
