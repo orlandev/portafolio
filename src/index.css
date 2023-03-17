@@ -14,7 +14,21 @@ h6,
 a,
 p,
 span,
-button, 
+button,
 label {
   font-family: "Roboto", san-serif;
+}
+
+.cta {
+  @apply transition p-button rounded-button bg-primary hover:bg-plight text-white hover:text-white;
+}
+
+.section {
+  padding: 10rem 5rem;
+}
+
+@media (max-width: 900px) {
+  .section {
+    padding: 5rem;
+  }
 }

@@ -14,8 +14,10 @@ export default function Hero() {
   }, [languageState]);
 
   return (
-    <div className="section w-full min-h-screen">
-      <h1>{}</h1>
+    <div className="section w-full min-h-screen bg-dark-background">
+      <h1 className="text-white font-bold text-4xl">{hero.title}</h1>
+      <p className="text-white-hover">{hero.body}</p>
+      <button className="cta">{contact}</button>
     </div>
   );
 }

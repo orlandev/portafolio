@@ -1,0 +1,9 @@
+.navbar {
+  @apply flex justify-between items-center h-20 w-full bg-dark-background2 px-5;
+}
+
+@media (max-width: 840px) {
+  .navbar .links {
+    display: none;
+  }
+}

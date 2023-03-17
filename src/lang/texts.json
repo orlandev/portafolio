@@ -7,6 +7,15 @@
       { "label": "Habilidades", "to": "#skills", "hash": "#skills" },
       { "label": "Proyectos", "to": "#projects", "hash": "#projects" },
       { "label": "Contactar", "to": "#contact-me", "primary": true }
-    ]
+    ],
+    "buttons": {
+      "contact": "Contactar"
+    },
+    "home": {
+      "hero": {
+        "title": "Hi there! 👋🏻",
+        "body": "I'm Orlando Novas Rodriguez a passionate Native Android Developer ❤ Kotlin ❤ Jetpack Compose"
+      }
+    }
   }
 }
