@@ -7,3 +7,9 @@
     display: none;
   }
 }
+
+@media (min-width: 841px) {
+  .toggle-drawer {
+    display: none;
+  }
+}

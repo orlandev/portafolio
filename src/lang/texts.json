@@ -13,8 +13,9 @@
     },
     "home": {
       "hero": {
-        "title": "Hi there! 👋🏻",
-        "body": "I'm Orlando Novas Rodriguez a passionate Native Android Developer ❤ Kotlin ❤ Jetpack Compose"
+        "title": "¡Hola! 👋🏻",
+        "subtitle": "Me llamo Orlando",
+        "body": "Soy desarrollador de aplicaciones móviles nativas para la plataforma Android"
       }
     }
   }

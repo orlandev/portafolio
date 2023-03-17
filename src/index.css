@@ -32,3 +32,15 @@ label {
     padding: 5rem;
   }
 }
+
+@media (max-width: 500px) {
+  .section {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 340px) {
+  .section {
+    padding: 20px;
+  }
+}

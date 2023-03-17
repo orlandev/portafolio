@@ -58,7 +58,7 @@ export default function Navbar() {
       <div className="flex items-center gap-2 links">{printLinks()}</div>
       <button
         onClick={() => setShowDrawer(true)}
-        className="w-icon h-icon hover:text-primary text-white transition"
+        className="toggle-drawer w-icon h-icon hover:text-primary text-white transition"
       >
         <FontAwesomeIcon className="text-2xl" icon={faBars} />
       </button>

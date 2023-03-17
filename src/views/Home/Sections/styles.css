@@ -1,0 +1,15 @@
+.hero p {
+  width: 40%;
+}
+
+@media (max-width: 900px) {
+  .hero p {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero p {
+    width: 100%;
+  }
+}
