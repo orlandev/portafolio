@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
+    "@emotion/css": "^11.10.6",
+    "@fontsource/poppins": "^4.5.10",
+    "@fontsource/roboto": "^4.5.8",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@tippyjs/react": "^4.2.6",
+    "framer-motion": "^10.1.0",
+    "react-cool-onclickoutside": "^1.7.0",
+    "sito-image": "^0.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
+    "some-javascript-utils": "^0.4.1",
+    "use-screen-width": "^1.0.3"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
@@ -37,9 +48,13 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
     "babel-plugin-import": "^1.13.6",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.2.1",
-    "source-map-explorer": "^2.5.3"
+    "prettier": "^2.8.4",
+    "source-map-explorer": "^2.5.3",
+    "tailwindcss": "^3.2.7"
   }
 }
