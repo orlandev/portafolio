@@ -1,0 +1,5 @@
+.drawer {
+  width: 300px;
+  transition: 500ms ease all;
+  @apply relative bg-dark-background2 h-full p-10;
+}

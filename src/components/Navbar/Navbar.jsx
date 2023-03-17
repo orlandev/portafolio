@@ -1,4 +1,4 @@
-import React, { useMemo, useCallback } from "react";
+import React, { useMemo, useCallback, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 // @fortawesome
@@ -10,6 +10,9 @@ import { scrollTo } from "some-javascript-utils/browser";
 
 // contexts
 import { useLanguage } from "../../contexts/LanguageProvider";
+
+// components
+import Drawer from "../Drawer/Drawer";
 
 // styles
 import "./styles.css";
@@ -44,13 +47,19 @@ export default function Navbar() {
     ));
   }, [location, links]);
 
+  const [showDrawer, setShowDrawer] = useState(false);
+
   return (
     <div className="navbar">
+      <Drawer visible={showDrawer} onClose={() => setShowDrawer(false)} />
       <a href="/" className="text-white" onClick={() => scrollTo(0)}>
         LOGO
       </a>
       <div className="flex items-center gap-2 links">{printLinks()}</div>
-      <button className="w-icon h-icon hover:text-primary text-white transition">
+      <button
+        onClick={() => setShowDrawer(true)}
+        className="w-icon h-icon hover:text-primary text-white transition"
+      >
         <FontAwesomeIcon className="text-2xl" icon={faBars} />
       </button>
     </div>
