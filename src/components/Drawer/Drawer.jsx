@@ -1,9 +1,6 @@
 import React, { useMemo, useCallback, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-// @emotion/css
-import { css } from "@emotion/css";
-
 // @fortawesome
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
