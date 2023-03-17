@@ -23,8 +23,14 @@ export default function Navbar() {
         key={item.to}
         href={item.to}
         className={`${
-          hash === item.hash ? "text-primary font-bold" : "text-white-hover"
-        } transition hover:text-primary`}
+          hash === item.hash && !item.primary
+            ? "text-plight font-bold"
+            : "text-white-hover hover:text-primary"
+        } transition p-button rounded-button ${
+          item.primary
+            ? "bg-primary hover:bg-plight text-white hover:text-white"
+            : ""
+        }`}
       >
         {item.label}
       </a>
@@ -36,7 +42,7 @@ export default function Navbar() {
       <a href="/" className="text-white" onClick={() => scrollTo(0)}>
         LOGO
       </a>
-      <div className="flex items-center gap-6">{printLinks()}</div>
+      <div className="flex items-center gap-2">{printLinks()}</div>
     </div>
   );
 }
