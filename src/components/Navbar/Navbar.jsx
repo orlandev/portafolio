@@ -39,7 +39,7 @@ export default function Navbar() {
         } transition p-button rounded-button ${
           item.primary
             ? "bg-primary hover:bg-plight text-white hover:text-white"
-            : ""
+            : "links"
         }`}
       >
         {item.label}
@@ -55,13 +55,15 @@ export default function Navbar() {
       <a href="/" className="text-white" onClick={() => scrollTo(0)}>
         LOGO
       </a>
-      <div className="flex items-center gap-2 links">{printLinks()}</div>
-      <button
-        onClick={() => setShowDrawer(true)}
-        className="toggle-drawer w-icon h-icon hover:text-primary text-white transition"
-      >
-        <FontAwesomeIcon className="text-2xl" icon={faBars} />
-      </button>
+      <div className="flex items-center gap-2">
+        {printLinks()}{" "}
+        <button
+          onClick={() => setShowDrawer(true)}
+          className="toggle-drawer w-icon h-icon hover:text-primary text-white transition"
+        >
+          <FontAwesomeIcon className="text-2xl" icon={faBars} />
+        </button>
+      </div>
     </div>
   );
 }

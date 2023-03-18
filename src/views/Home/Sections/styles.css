@@ -1,10 +1,41 @@
 .hero p {
-  width: 40%;
+  width: 70%;
+}
+
+.hero .image {
+  transition: all 500ms ease;
+  min-width: 400px;
+  min-height: 400px;
+  width: 400px;
+  height: 400px;
+}
+
+@media (max-width: 1000px) {
+  .hero .image {
+    min-width: 300px;
+    min-height: 300px;
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media (max-width: 900px) {
   .hero p {
-    width: 60%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .hero {
+    @apply flex-col-reverse;
+  }
+
+  .hero .communication {
+    @apply items-center;
+  }
+
+  .hero .communication p {
+    @apply text-center;
   }
 }
 

@@ -1,15 +1,28 @@
 .navbar {
-  @apply flex justify-between items-center h-20 w-full bg-dark-background2 px-5;
+  padding: 0 5rem;
+  @apply flex justify-between items-center h-20 w-full bg-dark-background2;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   .navbar .links {
     display: none;
   }
 }
 
-@media (min-width: 841px) {
+@media (min-width: 1001px) {
   .toggle-drawer {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 340px) {
+  .navbar {
+    padding: 0 20px;
   }
 }

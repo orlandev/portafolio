@@ -5,12 +5,14 @@ import Navbar from "../../components/Navbar/Navbar";
 
 // sections
 import Hero from "./Sections/Hero";
+import Work from "./Sections/Work";
 
 export default function Home() {
   return (
     <div className="flex flex-col w-full min-h-screen">
       <Navbar />
       <Hero />
+      <Work />
     </div>
   );
 }
