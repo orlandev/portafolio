@@ -23,6 +23,12 @@
       "work": {
         "title": "Lo que hago",
         "cards": []
+      },
+      "aboutMe": {
+        "title": "Soy Orlando Novas Rodriguez",
+        "body1": "He pasado los últimos diez años en un proceso de continuo aprendizaje de nuevas tecnologías, librerías, mejores prácticas de arquitectura, Kotlin, Coroutines, programación funcional reactiva y hace un tiempo comencé con el estudio de Jetpack Compose. ",
+        "body2": "He tenido, además, la oportunidad de adquirir práctica en el desarrollo aplicaciones móviles. He podido participar en todo el proceso, desde la idea inicial, la planificación y la recopilación de requisitos, hasta la entrega exitosa del producto. ",
+        "body3": "Todo esto me ha permitido poseer un mayor dominio sobre los patrones y las mejores prácticas a seguir para el desarrollo de aplicaciones móviles de alta calidad, y he aplicado dichos conocimientos en cada uno de los proyectos en los que he participado."
       }
     }
   }

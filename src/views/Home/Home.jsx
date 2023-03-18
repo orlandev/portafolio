@@ -6,6 +6,7 @@ import Navbar from "../../components/Navbar/Navbar";
 // sections
 import Hero from "./Sections/Hero";
 import Work from "./Sections/Work";
+import AboutMe from "./Sections/AboutMe";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Work />
+      <AboutMe />
     </div>
   );
 }

@@ -16,7 +16,7 @@ export default function Work() {
   }, [languageState]);
 
   return (
-    <div className="section work w-full min-h-screen bg-dark-background2 flex flex-col items-center justify-center gap-3">
+    <div id="what-i-do" className="section work w-full min-h-screen bg-dark-background2 flex flex-col items-center justify-center gap-3">
       <h2 className="text-white font-bold text-2xl">{work.title}</h2>
     </div>
   );

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -17,6 +21,10 @@ span,
 button,
 label {
   font-family: "Roboto", san-serif;
+}
+
+p {
+  @apply text-white;
 }
 
 .cta {

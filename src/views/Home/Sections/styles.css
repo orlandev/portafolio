@@ -1,13 +1,15 @@
-.hero p {
-  width: 70%;
-}
-
 .hero .image {
   transition: all 500ms ease;
   min-width: 400px;
   min-height: 400px;
   width: 400px;
   height: 400px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  @apply flex flex-col items-center p-5 rounded-2xl justify-start gap-5 bg-dark-background2;
 }
 
 @media (max-width: 1000px) {

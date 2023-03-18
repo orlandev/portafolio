@@ -36,7 +36,7 @@ const ToTop = () => {
         zIndex: visible ? 10 : -1,
         transform: visible ? "scale(1)" : "scale(0)",
       }}
-      className="to-top fixed bottom-5 right-5 rounded-circle w-9 h-9 pt-1 hover:bg-primary transition hover:text-white"
+      className="to-top fixed bottom-5 right-5 rounded-circle w-9 h-9 pt-1 hover:bg-primary transition text-white"
     >
       <FontAwesomeIcon className="external" icon={faArrowUp} />
     </button>
