@@ -1,6 +1,6 @@
 {
   "name": "orlando-portfolio",
-  "version": "0.2.6",
+  "version": "0.3.1",
   "private": true,
   "dependencies": {
     "@emotion/css": "^11.10.6",
@@ -12,6 +12,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@tippyjs/react": "^4.2.6",
+    "env-cmd": "^10.1.0",
     "framer-motion": "^10.1.0",
     "react": "^18.2.0",
     "react-cool-onclickoutside": "^1.7.0",
@@ -25,7 +26,7 @@
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start": "react-app-rewired start",
+    "start": "env-cmd -f .env react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
